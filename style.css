@@ -1,4 +1,127 @@
+html,
+body{
+   font-family: 'Poppins', sans-serif;
+   background-color:#f5e8ba;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 .main-container
 {
+    background-color:#1f2029;
+    padding: 10px 24px;
+    border-radius: 20px;
+    width: 490px;
+    border-radius: 2%;
     
 }
+h1
+{
+    color:orange;
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-family: sans-serif;
+}
+.left-box
+{
+    display:flex;
+    width:100%;
+    padding: 2px;
+    margin:2px;
+    /* background-color: aliceblue; */
+    justify-content: space-evenly;
+    align-items: center;
+    gap:20px;
+   
+}
+.right-box
+{
+    display:flex;
+    width:100%;
+    padding: 2px;
+    margin:2px;
+    /* background-color: aliceblue; */
+    justify-content: space-evenly;
+    align-items: center;
+    gap:20px;
+   
+}
+.convert-button
+{
+    display:flex;
+    width:100%;
+    padding: 2px;
+    margin:2px;
+    /* background-color: aliceblue; */
+    justify-content: space-evenly;
+    align-items: center;
+    gap:20px;
+}
+.result
+{
+
+}
+select
+{
+    width: 50%;
+    height: 40px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color:coral;
+    outline: none;
+    color: black;
+    /* margin: 0.2em 0; */
+    /* padding: 0 1em; */
+    border-radius: 10px;
+    border: none;
+  }
+  input
+  {
+    width: 60%;
+    height: 40px;
+    font-size: 1em;
+    margin: 0.2em 0;
+    border-radius: 10px;
+    border: none;
+    /* background: #cccccc; */
+    outline: none;
+    padding: 0 1em;
+  }
+  .convert-button{
+    display:flex;
+    justify-content: center;
+  }
+  #but-convert
+  {
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top:30px;
+    color: #fff;
+    cursor: pointer;
+    background-image: linear-gradient(to right,#e052a0,#f15c41)!important;
+    border-radius: 3px;
+    padding: 16px 18px 15px;
+    white-space: nowrap;
+
+    :hover {
+        background-color: #e6375a;
+        background-image: none!important;
+    }
+  }
+  p{
+    color: orange;
+    align-items: center;
+    text-align: center;
+    height: 10vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+  }
